@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 sudo apt-get -y update
-sudo apt-get -y install build-essential zlib1g-dev libssl-dev libreadline-gplv2-dev libxml2-dev
+sudo apt-get -y install build-essential zlib1g-dev libssl-dev libreadline-gplv2-dev libxslt-dev libxml2-dev
 libyaml-dev git nginx
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
